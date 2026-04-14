@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aayush Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🔥 Particle Background -->
+<div id="particles-js"></div>
+
+<!-- 🔥 Cursor -->
+<div class="cursor"></div>
+
+<!-- Loader -->
+<div id="loader">Loading...</div>
+
+<!--Scroll process-->
+<div id="progress"></div>
+
+<!-- Navbar -->
+<nav>
+  <h2>Aayush</h2>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>I am <span id="typing"></span></h1>
+  <p class="tagline">Web Developer | Coder | Problem Solver</p>
+  <button class="btn">View Projects</button>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <h2>My Skills</h2>
+  <div class="skill">HTML</div>
+  <div class="skill">CSS</div>
+  <div class="skill">JavaScript</div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <h2>My Projects</h2>
+
+  <div class="card">
+    <h3>To-Do App</h3>
+    <p>Task Manager with local storage</p>
+    <div class="buttons">
+            <a href=" https://ayush-sharma-codes-stack.github.io/TODO-List/">Live</a>
+            <a href="https://github.com/ayush-sharma-codes-stack/TODO-List">GitHub</a>
+        
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Amazon Clone</h3>
+    <p>E-commerce website with HTML5 and CSS</p>
+    <div class="buttons">
+        <a href="https://ayush-sharma-codes-stack.github.io/Amazon/">Live</a>
+        <a href="https://github.com/ayush-sharma-codes-stack/Amazon">GitHub</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: aayushsharmahrx@gmail.com</p>
+</section>
+
+<!--AI CHATBOX-->
+<div class="chatbox">
+    <div class="chat-header">Ask me💭</div>
+    <div class="chat-body" id="chatBody"></div>
+    <input type="text" id="chatInput" placeholder="Ask something...">
+</div>
+
+<!-- 🔥 Scripts (ORDER VERY IMPORTANT) -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+<script src="script.js"></script>
+
+<!-- 🔥 Particle Config -->
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80 },
+    color: { value: "#ff0000" },
+    line_linked: {
+      enable: true,
+      color: "#ff0000"
+    }
+  }
+});
+</script>
+
+</body>
+</html>
