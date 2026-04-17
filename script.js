@@ -4,7 +4,7 @@ window.onload = () => {
 };
 
 // Typing
-new Typed("#typing", {
+var typed = new Typed("#typing", {
   strings: ["Aayush", "Web Developer", "Programmer"],
   typeSpeed: 100,
   backSpeed: 50,
